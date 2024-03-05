@@ -15,7 +15,7 @@ const Score = () => {
     return () => {
       clearInterval(interval);
     };
-  }, [time, setTime]);
+  }, [time, setTime, playable]);
 
   return (
     <div className="container score">
